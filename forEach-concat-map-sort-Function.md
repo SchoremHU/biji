@@ -2,24 +2,25 @@ Array/forEach/Function/join/concat/map/filter/reduce/sort
 -----------------------------------------------------------------------
 NAN '' 0 undefined unll
 string number boolean symbol object undefined null
------------------------------------------------------------------------
-Array
-var a = new Array(3) //a[] empty x3,length:3
-Array 带一个参数，表示定义数组的length，a.length = 3,内容为空。
-var a = new Array(3,3) //a[3,3]
-表示数组 a [3,3]
-
-Array数组
-是一组按次序排列的一组值。
-数组是__proto__链不同的对象。
-
-
-伪数组
-原型链中没有Array.prototype
-arguments
 
 -----------------------------------------------------------------------
-forEach   需要接收函数，函数必须接受两个参数,第一个参数x是数组a中的value ，第二个参数y是数组a中的key  ,没有返回值。
+Array </br>
+var a = new Array(3) //a[] empty x3,length:3 </br>
+Array 带一个参数，表示定义数组的length，a.length = 3,内容为空。</br>
+var a = new Array(3,3) //a[3,3]</br>
+表示数组 a [3,3]</br>
+
+Array数组</br>
+是一组按次序排列的一组值。</br>
+数组是__proto__链不同的对象。</br>
+
+
+伪数组</br>
+原型链中没有Array.prototype</br>
+arguments</br>
+
+-----------------------------------------------------------------------
+forEach   需要接收函数，函数必须接受两个参数,第一个参数x是数组a中的value ，第二个参数y是数组a中的key  ,没有返回值。</br>
 a = [1,2,3,4,5]
 a.forEach( function(x,y){ console.log(x,y) } )
 //
