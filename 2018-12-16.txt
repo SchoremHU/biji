@@ -1,0 +1,58 @@
+document. 
+    字面含义是文档的意思
+    拥有“返回...”的含义
+    document是HTML文档的根节点，是我们可以从脚本对HTML页面中的所有元素进行访问
+    document是window对象的一部分
+gitElementBYId()
+    字面意思是按ID获取元素
+createElement()
+    字面意思是创建元素
+API
+.getContext
+    字面意思是获取上下文
+    //fillRect(10,10,20,20)   括号里表示（X轴，Y轴，长，宽）
+
+canvas，画图标签
+可以在监听鼠标的两个坐标之间连线 
+onmousedown //按下鼠标
+onmousemove //移动鼠标
+onmouseup  //松开鼠标
+
+context.fillstyle
+    填充样式
+context.fillRect（fillRectangle）
+    填充矩形
+context.strokeRect
+    绘制矩形
+context.clearRect
+    清除矩形
+画三角形
+
+画圆
+Math.PI 表示 π
+
+context.beginPath()
+    声明开始画图操作
+context.lineWidth=
+    画线的粗细
+closePath()
+    闭合路径之后图形绘制命令又重新指向到上下文中
+Context.moveTo( x, y )//起点
+context.lineTo( x, y )//终点
+
+不建议用css控制canvas宽高
+
+window.onresize
+
+position:fixed 浮动定位
+
+var pageWidth = document.documentElement.clientWidth 
+clientWidth   客户端宽度
+
+
+pwd #   显示当前路径
+
+Node.js创建目录
+fs.mkdirSync("./xxx")
+
+？代表URL的结尾与请求参数的开始，传递参数长度受限制
